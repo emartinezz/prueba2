@@ -1,0 +1,24 @@
+<ion-content class="ion-padding">
+  <br>
+  <div class="imagen">
+    <img  id="logo" src="https://viveduoc.cl/wp-content/uploads/2020/09/Recurso-11.png" alt="">
+  </div>
+<br>
+<br>
+
+<ion-content>
+  
+
+  <ion-item>
+    <ion-label position="floating" class="primary-input">Usuario</ion-label>
+    <ion-input #usuario></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating" class="primary-input">Contraseña</ion-label>
+    <ion-input #clave></ion-input>
+  </ion-item>
+  
+  <ion-button expand="block"  (click)="login(usuario,clave)">Ingresar</ion-button>
+
+
+</ion-content>
