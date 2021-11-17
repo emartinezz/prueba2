@@ -53,7 +53,6 @@ export class ApirestService {
       this.http.get(url).subscribe((data: []) =>
       {
         data.forEach(item => { this.cosas.push(item); });
-        //console.table(this.listado);
       },
       error => { console.log("error en la solicitud")
       })
@@ -68,7 +67,6 @@ export class ApirestService {
       this.http.get(url).subscribe((data: []) =>
       {
         data.forEach(item => { this.comen.push(item); });
-        //console.table(this.listado);
       },
       error => { console.log("error en la solicitud")
       })
