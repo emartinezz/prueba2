@@ -48,6 +48,7 @@ export class UsuariosPage implements OnInit {
           toast.present();
           usuario.value = "";
           clave.value = "";
+          console.log('Credenciales incorrectas');
         }
 
         else if (cla != "1234"){
@@ -60,7 +61,7 @@ export class UsuariosPage implements OnInit {
           clave.value = "";
         }
       }
-      console.log('Credenciales incorrectas');
     }
   }
+
 }
