@@ -25,14 +25,12 @@ export class DetallePage implements OnInit {
       this.apirestService.getUser(id);
       this.comentario = id
       console.log(this.comentario);
-      
     })
     this.api.getComent(this.comentario);
     this.comen = this.api.comen;
   }
   async atras(){
     this.router.navigate(['/home'])
-    
   }
 
 }
