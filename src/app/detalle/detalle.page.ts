@@ -16,7 +16,7 @@ export class DetallePage implements OnInit {
   constructor(private activatedRouter : ActivatedRoute,
               private apirestService:ApirestService,
               private api: ApirestService,
-              private router          : Router,) { }
+              private router: Router,) { }
 
   ngOnInit() {
     this.activatedRouter.paramMap.subscribe(p => {
