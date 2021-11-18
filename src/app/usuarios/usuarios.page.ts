@@ -57,7 +57,6 @@ export class UsuariosPage implements OnInit {
             duration: 2000
           });
           toast.present();
-          usuario.value = "";
           clave.value = "";
         }
       }
